@@ -72,9 +72,6 @@ const showErrorMessage = (inputType, input) => {
     let message = '';
     errorTypes.forEach((error) => {
         if(input.validity[error]){
-            console.log(inputType ,error);
-            console.log(input.validity[error]);
-            console.log(errorMessages[inputType][error]);
             message = errorMessages[inputType][error];
         }   
     });
