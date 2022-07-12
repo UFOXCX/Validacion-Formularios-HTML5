@@ -29,7 +29,7 @@ const errorMessages = {
 
     name: {
 
-        valueMissing: 'El campo nombre no puede estrar vacio',
+        valueMissing: 'El campo nombre no puede estar vacio',
     },
     email: {
 
@@ -42,7 +42,7 @@ const errorMessages = {
         patternMismatch: "al menos 6 caracteres, maximo 12,debe contener una letra minuscula, una letra mayuscula, un numero y no puede tener caracteres especiales",
     },
     birthDate: {   
-        valueMissing: 'Este campo fecha de nacimiento no puede estrar vacio',
+        valueMissing: 'Este campo fecha de nacimiento no puede estar vacio',
         customError:  'debes tener al menos 18 años de edad',
     },
     number: { 
